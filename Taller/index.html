@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BULLTIENDA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="imagenes/Logo.png" alt="Logo" width=300px height=300px>
+            <a href="https://www.instagram.com/bulltienda_/"><img src="imagenes/logoinsta.png"
+                    alt="Instagram.png" width=50px height=50px></a>
+            <a href="https://wa.me/message/7IY7F2BTASVJA1"><img src="imagenes/logowpp.png"
+                    alt="Whatsapp.png" width=50px height=50px></a>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="descripcion.html">Descripción</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>¡Bienvenido a nuestra tienda de ropa!</h2>
+            <p>Aquí encontrarás una amplia selección moda urbana para hombres.</p>
+        </section>
+
+        <section id="descripcion">
+            <h2>Nuestra Tienda</h2>
+            <p>Somos Bull Tienda, enfocados en el buen vestir masculino y a la moda, con las ultimas tendencias urbanas.
+            </p>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="BEISBOLERAS DE MALLA">
+                <img src="producto1.jpg" alt="bdemalla">
+                <p>Descripción del producto 1</p>
+                <button>Agregar al carrito</button>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="guardar.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Ropa para Hombres</p>
+    </footer>
+</body>
+
+</html>

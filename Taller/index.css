@@ -1,0 +1,25 @@
+body{
+    background-image: url(imagenes/fondoppal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    color: white;
+    font-family: brittany;
+}
+header nav img{
+    justify-content: space-around;
+    background-color: aqua;
+}
